@@ -2,7 +2,7 @@
 /* Perulangan FOR dengan break; */
 /* ----------------------------- */
 #include <iostream>
-#include <stdio.h>
+
 using namespace std;
 int main() {
   int a = 3, b = 2, c = 1, bil;
@@ -12,7 +12,7 @@ int main() {
     a += b;
     b += c;
     c += 2;
-    printf("\n%d \t| %d \t| %d", a, b, c);
+    cout << "\n" << a << "\t\t|" << b << "\t\t|" << c;
     if (c == 13)
       break;
   }
